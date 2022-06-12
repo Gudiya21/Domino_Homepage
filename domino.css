@@ -1,0 +1,71 @@
+#navbar{
+    height:30%;
+    width:100%;
+    background-color: rgb(12, 12, 102);
+    color:white;
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-end;
+}
+li a{
+    color:white;
+}
+
+li {
+    margin-right:1rem;
+    float:right;
+    list-style-type: none;
+}
+#image{
+    margin-right: 1rem;
+}
+#pizza{
+    height:70%;
+    width:50%;
+    float:right;
+}
+#hozat{
+    height:40%;
+    width:30%;
+    float:right;
+    position: relative;
+    top:21rem;
+    left:39rem;
+    
+}
+#logo{
+    height: 40px;
+    width: 41vh;
+}
+#boy{
+    height:40%;
+    width:50%;
+}
+#offer{
+    display: flex;
+    justify-content: left;
+}
+#discount{
+    background-image: url('https://api.dominos.co.in/prod-olo-api/images/paytm_wallet_offer_on_dominos_20211124@3x.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 10rem;
+    height: 6rem;
+    margin-right: 3rem;
+    cursor: pointer;
+    padding: 0.31rem 1rem;
+    border: 0.7px dotted rgb(151, 151, 151);
+}
+#down{
+    margin-top: 7%;
+    padding: 3rem 3rem 1rem;
+    /* display: flex; */
+    flex-direction: row;
+    color: rgb(131, 154, 177);
+    background-color: rgb(27, 23, 23);
+    height: 0%;
+}
+#pic{
+    height: 30%;
+    width: 20%;
+}
